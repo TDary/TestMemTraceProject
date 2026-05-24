@@ -1,0 +1,7 @@
+﻿services:
+  testmemtraceproject:
+    image: testmemtraceproject
+    build:
+      context: .
+      dockerfile: Dockerfile
+
